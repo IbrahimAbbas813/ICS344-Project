@@ -1,0 +1,66 @@
+# Environment and configuration files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Sensitive data
+credentials.json
+secrets.json
+aws_keys.txt
+*.key
+*.pem
+
+# AWS CLI cache
+.aws/
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Build and runtime artifacts
+*.zip
+extracted/
+/tmp/
+
+# Logs
+*.log
+CloudWatch_logs/
+
+# Temporary files
+/tmp/
+temp/
+*.tmp
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Git
+.git/
+
+# Test outputs
+test-results/
+.coverage
+
+# Sensitive test data
+test_tokens.txt
+test_credentials.txt
+sample_output.json
